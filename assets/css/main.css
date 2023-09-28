@@ -188,16 +188,34 @@ html {
 }
 
 .tickets-list li {
+    display: block;
     color: #757575;
     font-size: 15px;
     background-color: #fff;
     list-style: none;
-    padding: 8px 16px;
     border-bottom: 1px solid #ddd;
-    line-height: 1.5px;
+    line-height: 24px;
+    padding: 8px 16px;
+}
+
+.tickets-list .sold-out {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 3px 4px;
+    height: 24px;
+    width: 65px;
+    background-color: #f44336;
 
 }
 
-.tickets-list .sold-out {}
-
-.quanlity {}
+.tickets-list .quanlity {
+    color: #fff;
+    float: right;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    margin-right: 16px;
+}
